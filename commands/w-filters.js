@@ -15,7 +15,7 @@ exports.run = async (client, message) => {
     message.channel.send({
         embed: {
             color: 'ORANGE',
-            footer: { text: 'UPlay' },
+            footer: { text: 'Mist' },
             fields: [
                 { name: 'Filters', value: filtersStatuses[0].join('\n'), inline: true },
                 { name: '** **', value: filtersStatuses[1].join('\n'), inline: true },
